@@ -1,0 +1,13 @@
+id = "razor"
+name = "Razor"
+description = "Syntax highlighting for ASP.NET Razor (.cshtml, .razor)"
+version = "0.2.0"
+schema_version = 1
+authors = ["kovoor"]
+repository = "https://github.com/kovoor/zed-razor"
+
+languages = ["languages/razor"]
+
+[grammars.razor]
+repository = "https://github.com/kovoor/zed-razor"
+rev = "main"
